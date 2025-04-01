@@ -1,0 +1,77 @@
+html{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+*{
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(to right, rgba(6, 21, 109, 0.9), rgba(3, 20, 78, 0.9));  
+    background: linear-gradient(to right, rgba(7, 39, 97, 0.9), rgba(21, 3, 182, 0.9));
+}
+
+header{
+    padding: 50px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+aside{
+    background-color: black;
+    flex: 30px;
+}
+aside img{
+    width: 25px;
+    height: 25px;
+}
+section{
+    padding: 20px;
+    flex: 70%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.minicont{
+    display: flex;
+    flex-wrap: wrap;
+}
+.minisect{
+    background-color: black;
+    padding: 20px;
+    flex: 60%;
+    margin-bottom: 10px;
+}
+.miniaside{
+    background-color: black;
+    padding: 25px;
+    flex: 30px;
+    margin-bottom: 10px;
+}
+.miniaside img{
+    width: 200px;
+    height: 200px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(6, 6, 143);
+}
