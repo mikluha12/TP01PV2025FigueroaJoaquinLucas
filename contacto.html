@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactstyles.css">
+    <title>PV TP1 GRUPO777</title>
+</head>
+<body>
+    <div class="container">
+        <section class="Formul">
+            <a href="index.html">Volver al Inicio</a>
+            <h1>Formulario de Contacto</h1>
+            <input class="campos" type="text" placeholder="Ingrese su Nombre" id="nombre">
+            <input class="campos" type="text" placeholder="Ingrese su Apellido" id="apellido">
+            <input class="campos" type="email" placeholder="Ingrese su Correo electronico" id="email">
+            <input class="boton" type="submit" value="Registrar" id="boton">
+        </section>
+    </div>
+
+    <script>
+       document.getElementById('boton').addEventListener('click', function() {
+            const nombre = document.getElementById('nombre').value;
+            const apellido = document.getElementById('apellido').value;
+            const email = document.getElementById('email').value;
+            if(nombre === '' || apellido === '' || email === '') {
+                alert('Por favor complete todos los campos del formulario');
+                return;
+            }
+            alert(`Datos ingresados:\n\nNombre: ${nombre}\nApellido: ${apellido}\nEmail: ${email}`);
+        });
+    </script>
+
+</body>
+</html>

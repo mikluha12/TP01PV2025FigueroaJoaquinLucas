@@ -1,0 +1,51 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: -webkit-linear-gradient(to right, rgba(6, 21, 109, 0.9), rgba(3, 20, 78, 0.9));  
+    background: linear-gradient(to right, rgba(7, 39, 97, 0.9), rgba(21, 3, 182, 0.9));
+}
+.Formul{
+    width: 600px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 33px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.campos{
+    width: 80%;
+    background: #24303c;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color:  white;
+font-size: 20px;
+}
+a:hover{
+    color: rgb(10, 10, 44);
+}
+.boton{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 15px 0px;
+    font-size: 15px;
+}
+.boton:hover{
+    color: black;
+    background-color: white;
+}
